@@ -1,0 +1,41 @@
+{
+  "name": "leetcode-agent",
+  "description": "Analyzes GitHub repos, recommends LeetCode problems, and auto-pushes solutions.",
+  "endpoints": {
+    "analyze_repo": {
+      "method": "POST",
+      "url": "https://leetcode-agent.onrender.com/analyze_repo",
+      "input": {
+        "repo_url": "string"
+      },
+      "output": {
+        "analysis": "object"
+      }
+    },
+    "recommend_problem": {
+      "method": "GET",
+      "url": "https://leetcode-agent.onrender.com/recommend_problem",
+      "input": {},
+      "output": {
+        "problem": "string",
+        "difficulty": "string",
+        "category": "string"
+      }
+    },
+    "push_to_github": {
+      "method": "POST",
+      "url": "https://leetcode-agent.onrender.com/push_to_github",
+      "input": {
+        "problem_name": "string",
+        "solution_code": "string"
+      },
+      "output": {
+        "status": "string"
+      }
+    }
+  },
+  "auth": {
+    "type": "oauth",
+    "provider": "github"
+  }
+}

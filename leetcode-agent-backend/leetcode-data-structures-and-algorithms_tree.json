@@ -1,0 +1,1126 @@
+{
+    "data": {
+        "repository": {
+            "object": {
+                "entries": [
+                    {
+                        "name": ".gitignore",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": ".idea",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": ".gitignore",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "misc.xml",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "modules.xml",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "uiDesigner.xml",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "vcs.xml",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Main.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "README.md",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "Temp.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1089_Duplicate_Zeros.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_121_Best_Time_to_Buy_and_Sell_Stock.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1365_Numbers_Smaller_Than_the_Current_Number.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_136_Single_Number.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_141_Linked_List_Cycle.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1480_Running_Sum_of_1d_Array.py",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1509_Minimum_Difference_Between_Largest_and_Smallest_Value_in_Three_Moves.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_15_3Sum.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_16_3Sum_Closest.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1876_Substrings_of_Size_Three_with_Distinct_Characters.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_189_Rotate_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1929_Concatenation_of_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1984_Minimum_Difference.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2007_Find_Original_Array_From_Doubled_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2025_leetcode_contests",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "feb_2025",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "_3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "march_2025",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "contest_441",
+                                                "type": "tree"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "may_2025",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "Maximum_Product_of_Two_Digits.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "_Q1_Find_Most_Frequent_Vowel_and_Consonant.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "_Q1_Minimum_Deletions_for_At_Most_K_Distinct_Characters.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "_Q2_Minimum_Operations_to_Convert_All_Elements_to_Zero.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "_202_Happy_Number.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2116_Check_if_a_Parentheses_String_Can_Be_Valid.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2171_Removing_Minimum_Number_Magic_Beans.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_219_Contains_Duplicate_II.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2413_Smallest_Even_Multiple.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_257_Binary_Tree_Paths.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_26_Remove_Duplicates_from_Sorted_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_2D_matrix",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_200_Number_of_Islands.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_62_Unique_Paths.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "_3151_Special_Array_I.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_342_Power_of_Four.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_35_Search_Insert_Position.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_39_Combination_Sum.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_441_Arranging_Coins.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_448_Find_All_Numbers_Disappeared_in_an_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_496_Next_Greater_Element_I.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_53_Maximum_Subarray.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_58_Length_of_Last_Word.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_66_Plus_One.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_739_Daily_Temperatures.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "_88_Merge_Sorted_Array.java",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "arrays",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1920_Build_Array_from_Permutation.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "backtracking",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "DeterminePath.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "StepsCount.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_40_Combination_Sum_II.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_40_Combination_Sum_II.py",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_77_Combinations.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_78_Subsets.py",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "binarySearch",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_162_Find_Peak_Element.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_33_Search_in_Rotated_Array.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_704_Binary_Search.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_852_Peak_Index.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "binary_search_tree",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_1008_Construct_Binary_Search_Tree_Preorder_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_700_Search_in_Binary_Search_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_701_Insert_into_Binary_Search_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "dynamicProgramming",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_509_Fibonacci_Number.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_70_Climbing_Stairs.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "hashTable",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_169_Majority_Element.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "hashMap",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "HashMapLearning.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "HashmapImplementation.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "Main.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "MapusingHash.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "temp.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "leetcode-data-structures-and-algorithms.iml",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "linkedList",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_142_Linked_List_Cycle_II.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_160_Intersection_of_Two_Linked_Lists.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_203_Remove_Linked_List_Elements.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_206_Reverse_Linked_List.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_24_Swap_Nodes_in_Pairs.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_25_Reverse_Nodes_in_kthGroup.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_61_Rotate_List.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_83_Remove_Duplicates_from_Sorted_List.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_876_Middle_of_the_Linked_List.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_92_Reverse_Linked_List_II.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "dataStructure",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "CircularLinkedList.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "DoublyLinkedList.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "Main.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "SinglyLinkedList_Implementation.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "prefixSum",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_528_Random_Pick_with_Weight.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "probability",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_1227_Airplane_Seat_Assignment_Probability.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "queues",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_225_Implement_Stack_using_Queues.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_225_Implement_Stack_using_Queues.py",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "dataStructure",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "DequeOperations.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "QueueOperations.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "recursion",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "BinarySearch.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "CheckSortedArray.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "LinearSearch.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "MergeSort.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "ReturnIndices2.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "ReturnlndicesList.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_22_Generate_Parentheses.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_326_Power_of_Three.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "set",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_128_Longest_Consecutive_Sequence.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1544_Make_The_String_Great.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_187_Repeated_DNA_Sequences.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_2215_Find_the_Difference_of_Two_Arrays.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "hashSet",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "HashSet_Operations.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "LinkedHashSet_Operations.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "slidingWindow",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "README.md",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1208_Get_Equal_Substrings_Within_Budget.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1343_Number_of_Sub_arrays_of_Size_K_and_Average_Greater_than_or_Equal_to_Threshold.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1652_Defuse_the_Bomb.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_209_Minimum_Size_Subarray_Sum.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_3_Longest_Substring_Without_Repeating_Characters.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_424_Longest_Repeating_Character_Replacement.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_480_Sliding_Window_Median.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_567_Permutation_in_String.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_594_Longest_Harmonious_Subsequence.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_643_Maximum_Average_Subarray_I.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_713_Subarray_Product_Less_Than_K.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_76_Minimum_Window_Substring.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_930_Binary_Subarrays_With_Sum.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "algorithm",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "Main.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "dynamicWindow.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "fixedSizeWindow.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "fixedWindowExample2.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "stacks",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_224_Basic_Calculator.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_232_Implement_Que_Using_Stacks.py",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "dataStructure",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "StackOperations.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "strings",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_171_Excel_Sheet_Column_Number.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "sum_of_elements.py",
+                        "type": "blob",
+                        "object": {}
+                    },
+                    {
+                        "name": "trees",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "1028_Recover_a_Tree_From_Preorder_Traversal.py",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "Main2.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "Random.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "TreeNode.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_100_Same_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_101_Symmetric_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_102_Binary_Tree_Level_Order_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_104_Maximum_Depth.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_111_Minimum_Depth_of_Binary_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_112_Path_Sum.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_144_Binary_Tree_Preorder_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_145_Binary_Tree_Postorder_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_222_Count_Complete_Tree_Nodes.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_543_Diameter_of_Binary_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_653_Two_Sum_IV_Input_is_a_BST.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_94_Binary_Tree_Inorder_Traversal.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_98_Validate_Binary_Search_Tree.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_99_Recover_BST.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "binaryTrees_code",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "InorderTraversing.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "IterationTraversing.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "LevelOrderTraversal.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "TreeBuilding.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "twoPointers",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "_125_Valid_Palindrome.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_167_Two_Sum_2.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_1752_Check_if_Array_Is_Sorted_and_Rotated.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_27_Remove_Element.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_283_Move_Zeroes.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_28_Find_the_Index_of_the_First_Occurrence_in_a_String.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_2_Add_Two_Numbers.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_345_Reverse_Vowels_of_a_String.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_4_Median_of_Two_Sorted_Arrays.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_821_Shortest_Distance_to_a_Character.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_925_Long_Pressed_Name.java",
+                                    "type": "blob",
+                                    "object": {}
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "weeklyContest",
+                        "type": "tree",
+                        "object": {
+                            "entries": [
+                                {
+                                    "name": "Main.java",
+                                    "type": "blob",
+                                    "object": {}
+                                },
+                                {
+                                    "name": "_02_Feburary_2025",
+                                    "type": "tree",
+                                    "object": {
+                                        "entries": [
+                                            {
+                                                "name": "_Q1_Maximum_Difference_Between_Even_and_Odd_Frequency_I.java",
+                                                "type": "blob"
+                                            },
+                                            {
+                                                "name": "main.java",
+                                                "type": "blob"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

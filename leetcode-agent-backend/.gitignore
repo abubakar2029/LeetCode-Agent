@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+Venv/
+venv.bak/
+.env
+.idea/
+.vscode/
+
+# FastAPI specific
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+/dist/
+/build/
+
+# IDE specific (if not already covered by .idea or .vscode)
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
