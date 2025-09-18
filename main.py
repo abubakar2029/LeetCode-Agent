@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.routers import router_list
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import Base, engine
-# from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse
 
 # Create DB tables
 Base.metadata.create_all(bind=engine)
@@ -25,8 +25,7 @@ for router in router_list:
 def root():
     return {"message": "LeetCode Agent Backend is running 🚀"}
 
-# This was a temporary fix and DEPRECIATED now 
 
-# @app.get("/manifest.json")
-# def get_manifest():
-#     return FileResponse("coral/leetcode-agent.json")
+@app.get("/manifest.json")
+def get_manifest():
+    return FileResponse("coral/leetcode-agent.json")
