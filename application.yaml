@@ -1,0 +1,45 @@
+# (DEPRECATED) Coral agent configuration file
+agents:
+  leetcode-agent:                # name of your agent
+    options:
+      - name: "GITHUB_TOKEN"
+        type: "string"
+        description: "GitHub access token for repo analysis"
+      - name: "GITHUB_CLIENT_ID"
+        type: "string"
+        description: "GitHub OAuth client ID"
+      - name: "GITHUB_CLIENT_SECRET"
+        type: "string"
+        description: "GitHub OAuth client secret"
+      - name: "DATABASE_URL"
+        type: "string"
+        description: "PostgreSQL connection string"
+      - name: "SUPABASE_KEY"
+        type: "string"
+        description: "Supabase API key"
+      - name: "ENCRYPTION_KEY"
+        type: "string"
+        description: "Key for encrypting sensitive data"
+      - name: "JWT_SECRET"
+        type: "string"
+        description: "JWT secret for auth"
+      - name: "JWT_ALGORITHM"
+        type: "string"
+        description: "JWT algorithm type"
+      - name: "EXTENSION_REDIRECT"
+        type: "string"
+        description: "Chrome extension redirect ID"
+
+    runtime:
+      type: "docker"
+      image: "leetcode-agent:latest"     # the Docker image you build
+      environment:
+        - option: "GITHUB_TOKEN"
+        - option: "GITHUB_CLIENT_ID"
+        - option: "GITHUB_CLIENT_SECRET"
+        - option: "DATABASE_URL"
+        - option: "SUPABASE_KEY"
+        - option: "ENCRYPTION_KEY"
+        - option: "JWT_SECRET"
+        - option: "JWT_ALGORITHM"
+        - option: "EXTENSION_REDIRECT"

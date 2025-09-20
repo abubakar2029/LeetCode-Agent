@@ -35,30 +35,9 @@ def get_db():
     finally:
         db.close()
 
-@router.get("/demo")
-def demo_button():
-    """Show a demo HTML page with a 'Login with GitHub' button"""
-    html_content = f"""
-    <html>
-        <head>
-            <title>LeetAgent Demo</title>
-        </head>
-        <body style="font-family: sans-serif; padding: 40px;">
-            <h1>🔑 LeetAgent GitHub Login</h1>
-            <a href="{get_github_login_url()}">
-                <button style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-                    Connect GitHub
-                </button>
-            </a>
-        </body>
-    </html>
-    """
-    return HTMLResponse(content=html_content)
-
 
 @router.get("/github")
 def auth_github():
-    # return {"auth_url": get_github_login_url()}
     return RedirectResponse(get_github_login_url())
 
 

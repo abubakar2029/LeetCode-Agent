@@ -8,3 +8,5 @@ sqlalchemy
 psycopg2-binary
 cryptography
 PyJWT
+camel-ai
+camel

@@ -1,3 +1,4 @@
+# DEPRECATED: The Coral integration has been removed from the main application.
 from coral_mcp import MCPServer
 import requests
 
