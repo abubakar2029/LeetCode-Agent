@@ -19,8 +19,12 @@ It provides APIs to:
 - **Frontend** – Chrome extension UI built with React, Vite, and Tailwind.  
   👉 [LeetCode Agent Frontend](https://github.com/<your-username>/LeetCode-Agent-UI)  
 - **Backend (this repo)** – FastAPI service for repo analysis, recommendations, and GitHub integration.  
+## My LeetCode Progress
 
-
+<!-- LEETCODE-AGENT:START -->
+Here will be your progress stats…
+<!-- LEETCODE-AGENT:END -->
+## Next sections…
 ## 📁 Project Structure
 
 ```
