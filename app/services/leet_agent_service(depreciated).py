@@ -16,7 +16,7 @@ def query_aiml(prompt: str) -> str:
         "Content-Type": "application/json"
     }
     data = {
-        "model": "mistralai/Mistral-7B-Instruct-v0.1",
+        "model": "openai/gpt-5-chat-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7,
     }
