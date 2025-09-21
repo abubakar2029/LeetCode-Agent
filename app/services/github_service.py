@@ -2,15 +2,12 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Load environment variables from .env
 load_dotenv()
 
 CLIENT_ID = os.getenv("GITHUB_CLIENT_ID")
 CLIENT_SECRET = os.getenv("GITHUB_CLIENT_SECRET")
 REDIRECT_URI = "http://localhost:8000/auth/callback"
 
-# In-memory storage (replace with DB later)
-user_tokens = {}
 
 
 def get_github_login_url():
@@ -63,4 +60,4 @@ def get_user_repos(token: str):
     if response.status_code != 200:
         raise Exception("Failed to fetch repos")
     repos = response.json()
-    return [r["name"] for r in repos]  # just return repo names
+    return [r["name"] for r in repos]  

@@ -1,6 +1,5 @@
 import base64
 import requests
-import json
 
 
 def dict_to_markdown_table(stats_dict, sort=True):
@@ -17,11 +16,8 @@ def dict_to_markdown_table(stats_dict, sort=True):
 
 
 def update_readme_file(stats_dict,username,repo,token):
-    # username = "abubakar2029"  # GitHub username of repo owner
-    # repo = "LeetCode-Agent-Backend"  # Repository name
-    # token = "YOUR_PERSONAL_ACCESS_TOKEN"  # replace with your GitHub PAT
 
-    url = f"https://api.github.com/repos/abubakar2029/leetcode-data-structures-and-algorithms/contents/README.md"
+    url = f"https://api.github.com/repos/{username}/{repo}/contents/README.md"
     headers = {"Authorization": f"token {token}"}
 
     # 1. Get current README
@@ -51,10 +47,3 @@ def update_readme_file(stats_dict,username,repo,token):
     }
     r = requests.put(url, headers=headers, json=data)
     return r.json()
-
-
-# if __name__ == "__main__":
-#     # Example stats text (replace with real LeetCode stats output)
-#     stats = "✅ Solved 10 problems\n🔥 Streak: 5 days\n🏆 Ranking: Top 20%"
-#     response = update_readme(stats)
-#     print(response)

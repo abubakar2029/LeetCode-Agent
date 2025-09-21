@@ -1,7 +1,5 @@
 import os, time, jwt
 
-import urllib
-import code
 from fastapi import APIRouter, Depends
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from sqlalchemy.orm import Session
@@ -26,14 +24,6 @@ JWT_EXPIRES_SECONDS = 60 * 60 * 24 * 365  # 365 days
 router = APIRouter(prefix="/auth", tags=["Auth"])
 
 EXTENSION_REDIRECT=os.getenv("EXTENSION_REDIRECT")
-
-
-# def get_db():
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
 
 
 @router.get("/github")

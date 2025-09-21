@@ -1,3 +1,5 @@
+# DEPRECATED: Use services/recommendation_service.py instead
+
 import requests
 import json
 import os

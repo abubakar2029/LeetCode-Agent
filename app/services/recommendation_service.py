@@ -3,8 +3,8 @@ import json
 import os
 from dotenv import load_dotenv
 from sqlalchemy.orm import Session
-from fastapi import Depends
-from app.database import get_db
+from app.utils.security import decrypt_token
+from app import models
 from app.services.repo_analyzer import get_repo_tree
 # Load environment variables
 load_dotenv()
@@ -28,50 +28,6 @@ def query_aiml(prompt: str) -> str:
         return r.json()["choices"][0]["message"]["content"]
     return f"❌ API Error: {r.text}"
 
-
-def compare_repos(user_repo: dict, reference_repo: dict) -> list:
-    """Find missing problems by comparing user and reference repo."""
-    solved = set(user_repo.get("Solved", []))
-    reference_solved = set(reference_repo.get("Solved", []))
-    return list(reference_solved - solved)
-
-
-def generate_email_suggestion(user_repo: dict, reference_repo: dict) -> str:
-    """Generate short motivational email suggestion."""
-    missing_problems = compare_repos(user_repo, reference_repo)
-
-    prompt = f"""
-    You are a coding mentor.
-
-    Here is the reference "75 Days DSA Challenge" repo:
-    {json.dumps(reference_repo, indent=2)}
-
-    Here is the user's current repo analysis:
-    {json.dumps(user_repo, indent=2)}
-
-    Based on the comparison:
-    - The user is missing these topics/problems: {missing_problems}
-
-    Please write a SHORT motivational and professional email with:
-    - Subject
-    - Greeting (use 'Hi Developer')
-    - Body (1 short paragraph with suggestions only 2 problem on what to solve next but it should be short from the 75-day repo)
-    - Closing signed 'Your LeetAgent'
-    """
-    return query_aiml(prompt)
-
-import json
-from app.services.repo_analyzer import get_repo_tree
-from app.utils.github_client import run_query
-from app.utils.security import decrypt_token
-from app import models
-
-
-def compare_repos(user_repo: dict, reference_repo: dict) -> list:
-    """Find missing problems by comparing user and reference repo."""
-    solved = set(user_repo.get("Solved", []))
-    reference_solved = set(reference_repo.get("Solved", []))
-    return list(reference_solved - solved)
 
 
 def generate_suggestion(user: models.User, db:Session) -> dict:

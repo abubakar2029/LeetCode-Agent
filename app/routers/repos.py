@@ -8,13 +8,6 @@ from app.services.db_service import set_user_repo
 
 router = APIRouter(prefix="/repos", tags=["Repos"])
 
-# def get_db():
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
-
 @router.get("/list")
 def list_repos(username: str, db: Session = Depends(get_db)):
     """List user repos"""
@@ -47,10 +40,6 @@ def create_repo(username: str, repo_name: str, db: Session = Depends(get_db)):
     # Save repo in DB
     set_user_repo(db, username, repo_name)
 
-    # ⚠️ Later in frontend/extension:
-    # localStorage.setItem("leetagent_repo", repo_name);
-    # localStorage.setItem("leetagent_username", username);
-
     return {"message": "Repo created successfully", "repo_name": repo_name}
 
 @router.post("/select")
@@ -61,9 +50,5 @@ def select_repo(username: str, repo_name: str, db: Session = Depends(get_db)):
         return JSONResponse({"error": "User not found"}, status_code=404)
 
     set_user_repo(db, username, repo_name)
-
-    # ⚠️ Later in frontend/extension:
-    # localStorage.setItem("leetagent_repo", repo_name);
-    # localStorage.setItem("leetagent_username", username);
 
     return {"message": "Repo selected successfully", "repo_name": repo_name}
