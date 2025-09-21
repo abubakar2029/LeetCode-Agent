@@ -81,10 +81,13 @@ def generate_suggestion(user: models.User, db:Session) -> dict:
     # Decrypt token for private repo analysis
     raw_token = decrypt_token(user.github_token)
 
+    print("Decrypted token for user:", raw_token)
+    
     # Analyze user repo
     user_repo = get_repo_tree(owner=user.username, repo=user.repo_name, token=raw_token, save=False)
 
-    print("User repo analysis: ", user_repo)
+    # print("User repo analysis Token: ", user_repo)
+    
     prompt = f"""
     You are a coding mentor for a competitive programmer.
 
