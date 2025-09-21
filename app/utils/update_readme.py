@@ -3,10 +3,10 @@ import requests
 
 def update_readme(stats_text):
     username = "abubakar2029"  # GitHub username of repo owner
-    repo = "LeetCode-Agent-Backend"  # Repository name
+    repo = "leetcode-data-structures-and-algorithms"  # Repository name
     token = "YOUR_PERSONAL_ACCESS_TOKEN"  # replace with your GitHub PAT
 
-    url = f"https://api.github.com/repos/{username}/{repo}/contents/README.md"
+    url = f"https://api.github.com/repos/abubakar2029/leetcode-data-structures-and-algorithms/contents/README.md"
     headers = {"Authorization": f"token {token}"}
 
     # 1. Get current README
@@ -41,3 +41,4 @@ if __name__ == "__main__":
     stats = "✅ Solved 10 problems\n🔥 Streak: 5 days\n🏆 Ranking: Top 20%"
     response = update_readme(stats)
     print(response)
+
