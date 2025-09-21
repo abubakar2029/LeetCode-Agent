@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, JSON
 from app.database import Base
 
 class User(Base):
@@ -9,4 +9,5 @@ class User(Base):
     email = Column(String, nullable=True)
     avatar_url = Column(String, nullable=True)
     repo_name = Column(String, nullable=True)
-    github_token = Column(String, nullable=False)  # store securely in prod!
+    github_token = Column(String, nullable=False)  
+    today_problem = Column(JSON, nullable=True)

@@ -12,7 +12,7 @@ from app.services.github_service import (
     get_user_info,
 )
 from app.services.db_service import create_or_update_user
-from app.database import SessionLocal
+from app.database import SessionLocal, get_db
 from app import models
 from app.utils.security import encrypt_token
 from dotenv import load_dotenv
@@ -28,12 +28,12 @@ router = APIRouter(prefix="/auth", tags=["Auth"])
 EXTENSION_REDIRECT=os.getenv("EXTENSION_REDIRECT")
 
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# def get_db():
+#     db = SessionLocal()
+#     try:
+#         yield db
+#     finally:
+#         db.close()
 
 
 @router.get("/github")

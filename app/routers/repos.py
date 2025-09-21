@@ -2,18 +2,18 @@ from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 import requests
-from app.database import SessionLocal
+from app.database import get_db, SessionLocal
 from app import models
 from app.services.db_service import set_user_repo
 
 router = APIRouter(prefix="/repos", tags=["Repos"])
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# def get_db():
+#     db = SessionLocal()
+#     try:
+#         yield db
+#     finally:
+#         db.close()
 
 @router.get("/list")
 def list_repos(username: str, db: Session = Depends(get_db)):
