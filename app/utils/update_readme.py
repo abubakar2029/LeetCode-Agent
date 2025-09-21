@@ -21,7 +21,7 @@ def update_readme_file(stats_dict,username,repo,token):
     # repo = "LeetCode-Agent-Backend"  # Repository name
     # token = "YOUR_PERSONAL_ACCESS_TOKEN"  # replace with your GitHub PAT
 
-    url = f"https://api.github.com/repos/{username}/{repo}/contents/README.md"
+    url = f"https://api.github.com/repos/abubakar2029/leetcode-data-structures-and-algorithms/contents/README.md"
     headers = {"Authorization": f"token {token}"}
 
     # 1. Get current README
